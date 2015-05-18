@@ -1,0 +1,219 @@
+*{
+	color: #2c3e50;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+.container{
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+/* TÍTULO */
+
+.logoini{
+	padding: 15px;
+}
+
+.logoini img{
+	width: 25%;
+}
+
+.sinpad {
+	padding: 0;
+	margin: 0;
+}
+
+/* BARRA DE NAVEGACIÓN */
+
+.navbar{
+	padding: 20px;
+}
+
+a{
+	padding: 0 30px;
+		text-decoration: none;
+}
+
+/* BANNER */
+
+.fondo {
+	background-size: cover;
+	width: 100%;
+	min-height: 503px;
+	background-image: url("ballet8.JPG");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* TEXTCENTRAL */
+
+.textcentral{
+	margin: 110px 0;
+}
+
+.textcentral p{
+	width: 47%;
+	margin: 0 auto;
+	line-height: 1.5em;
+	font-size: 23px;
+}
+
+/* SEPARADOR */
+
+.separador{
+  width: 210px;
+  height: 1px;
+  background-color: #bdc3c7;
+  margin: 30px auto;
+}
+
+/* BOTÓN OFERTA */
+
+button:hover {
+	background-color: rgba(22,160,133,0.9);
+	color: white;
+}
+
+button {
+  background-color: #1abc9c;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  border:none;
+  padding: 15px 30px;
+	display: block;
+	margin: 30px auto 0;
+	font-size: 20px;
+}
+
+/* ROW1 - 2 CUADRADOS */
+
+.row{
+	margin: 0px;
+	padding: 0px;
+}
+
+.col-6{
+	height: 435px;
+	background-color: gray;
+	border: 1px solid #A4A4A4;
+	padding: 0px;
+	margin: 0px;
+}
+
+.col-6 img{
+	width: 100%;
+	height: 100%;
+}
+
+.columnas-recuadro{
+	position: relative;
+}
+
+.recuadro{
+	position: absolute;
+	width: 33%;
+	bottom: 0;
+	left: 34.5%;
+	background-color: #16a085;
+}
+
+.recuadro p{
+	font-size: 30px;
+	color: white;
+	padding: 6% 4%;
+	text-align: center;
+}
+
+/* SECCION FRASE */
+
+.frase{
+	width: 70%;
+	font-family: 'Merriweather', serif;
+	margin: 7.5% auto 7%;
+}
+
+.frase span{
+	font-size: 36px;
+	letter-spacing: -0.02em;
+}
+
+.frase p{
+	text-align: right;
+	font-size: 12px;
+	padding-top: 6px;
+	padding-right: 20px;
+}
+
+/* SECCION CONTACTO */
+
+.contacto{
+	margin: 90px 0;
+}
+
+.contactanos{
+	margin: 0 0 30px 0;
+}
+
+.contacto input{
+	height: 40px;
+	width: 350px;
+	font-size: 13px;
+	display: block;
+	margin: 12px auto;
+}
+
+.contacto textarea{
+	height: 100px;
+	width: 350px;
+	font-size: 13px;
+	display: block;
+	margin: 10px auto;
+	padding-top: 7px;
+}
+
+.piepagina{
+	height: 100px;
+	padding: 20px;
+	background-color: #424242;
+}
+
+.textpie{
+	margin: 30px;
+	float: left;
+}
+
+.textpie span{
+	color: white;
+	letter-spacing: 0.02em;
+}
+
+.logos{
+	float: left;
+	position: relative;
+	left: 200px;
+}
+
+img{
+	padding: 0;
+	margin: 0;
+}
+
+.logos img{
+	width: 65px;
+	border-radius: 50%;
+}
+
+.logos img:hover{
+	background-color: blue;
+}
+
+.logos a{
+	padding: 0 5px;
+}

@@ -1,0 +1,46 @@
+
+/* OFERTA CLASES */
+
+nav{
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.clasesoferta{
+	margin: 70px 0;
+}
+
+/* SEPARADOR */
+
+.separador{
+  width: 80%;
+   margin-top: 0px;
+}
+
+/* ROW 1: COLUMNAS */
+
+.row{
+	width: 82%;
+	margin: 0 auto;
+	padding-bottom: 25px;
+}
+
+.img{
+	height: 220px;
+	padding: 20px;
+	background-color: gray;
+}
+
+.nomclase{
+	padding: 20px 18px;
+	background-color: #D8D8D8;
+}
+
+.nomclase span{
+	font-size: 14px;
+}
+.nomclase p{
+	padding-top: 10px;
+	width: 100%;
+	font-size: 12px;
+	line-height: 1.5em;
+}

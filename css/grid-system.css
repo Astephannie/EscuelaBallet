@@ -1,0 +1,87 @@
+/* Grid system */
+
+.container{
+	width: 968px; /*Promedio de pantallas*/
+	padding-left: 14px;
+	padding-right: 14px;
+	margin: 0 auto;
+	min-height: 350px; /*puede seguir creciendo*/
+}
+
+.row:before,.row:after {
+  content: "";
+  display: table;
+ }
+  
+.row:after {
+  clear: both;
+}
+
+.row{
+	margin-left: -14px;
+	margin-right: -14px;
+	min-height: 21px;
+	padding: 3px 0;
+	margin-bottom: 3px;
+}
+
+[class*="col-"]{
+	min-height: 7px;
+	margin-bottom: 3px;
+	padding: 0 14px;
+	float: left;
+}
+
+.col-1{
+	width: 8.333333333333333%;  /* 1:12x100 */
+}
+
+.col-2{
+	width: 16.66666666666666%;  /* 1:12x100 */
+}
+
+.col-3{
+	width: 25%;  /* 3:12x100 */
+}
+
+.col-4{
+	width: 33.33333333333333%;  /* 4:12x100 */
+}
+
+.col-5{
+	width: 41.66666666666666%;  /* 4:12x100 */
+}
+
+.col-6{
+	width: 50%;  /* 6:12x100 */
+}
+
+.col-7{
+	width: 58.33333333333333%;  /* 1:12x100 */
+}
+
+.col-8{
+	width: 66.66666666666666%;  /* 1:12x100 */
+}
+
+.col-9{
+	width: 75%;  /* 3:12x100 */
+}
+
+.col-10{
+	width: 83.33333333333333%;  /* 4:12x100 */
+}
+
+.col-11{
+	width: 91.66666666666666%;  /* 4:12x100 */
+}
+
+.col-12{
+	width: 100%;  /* 6:12x100 */
+}
+
+/* UTILIDADES */
+
+.text-center{
+	text-align: center;
+}
